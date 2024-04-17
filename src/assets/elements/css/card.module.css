@@ -1,0 +1,22 @@
+.card{
+  display: flex;
+  flex-direction: column;
+
+  background: transparent;
+  border: 2px solid white;
+  width: 350px;
+  margin: 50px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 26px 0 26px 0;
+}
+.card img:hover{
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.card p{
+  text-align: left;
+  font-size: 1.3em;
+}

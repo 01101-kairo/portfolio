@@ -1,0 +1,64 @@
+.presentation div{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.presentation div > div{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  text-align: center;
+  width: 25%;
+  margin-top: 50px;
+}
+
+.presentation p{
+  margin: 20px 12px  0;
+  height: 400px;
+}
+
+@media screen and (max-width: 992px){
+  .presentation div > div{
+    width: 50%;
+  }
+  .presentation p{
+    text-align: left;
+  }
+}
+
+.time{
+  display: flex;
+  flex-wrap: nowrap !important;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+
+  width: 100% !important;
+  margin:  0 !important;
+}
+
+
+.timeChild {
+  display: flex;
+  flex-wrap: nowrap !important;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
+
+  width: 100% !important;
+  margin:  0 !important;
+}
+
+.ball{
+  background-color: white;
+  margin: 0 !important;
+  border-radius: 50px;
+  width: 26px !important;
+  height: 26px;
+}
+
+.line{
+  background-color: white;
+  margin: auto 0 !important;
+  width: 49.2% !important;
+  height: 9px;
+}

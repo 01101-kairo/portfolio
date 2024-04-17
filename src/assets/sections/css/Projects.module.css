@@ -1,0 +1,8 @@
+.projects h2{
+  padding-top: 126px;
+}
+.projects div{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}

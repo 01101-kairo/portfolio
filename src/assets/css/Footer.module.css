@@ -1,0 +1,20 @@
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left;
+  margin: 238px 0 66px;
+}
+
+.footer div{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.interno{
+  display: flex;
+  flex-direction: column;
+  margin-right: 36px;
+}
