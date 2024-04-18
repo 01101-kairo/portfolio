@@ -37,7 +37,7 @@ export default function Projects() {
           img  = {pg4}
           title= {'Projeto siteGenerico'}
           text = {'Nesse projeto costruo uma pagina com os conhecimento que tenho no fremework bootstrap contendo responsividade'}
-          site = {'https://site-generico-do-kairo.netlify.app/'}
+          site = {'https://site-generico-p10k3jiyq-kairo-costas-projects.vercel.app/'}
           github={'https://github.com/01101-kairo/siteGenerico'}
         />
       </div>
