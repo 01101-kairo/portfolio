@@ -5,7 +5,7 @@ export default function Card({img,title, text, site, github}) {
   return (
     <div className={styles.card}>
       <a href={site} aria-label='pagina desse projeto'>
-        <img src={img} alt="ERROR"/>
+        <img src={img} alt="ERROR" width='349' height='196'/>
       </a>
       <h3>{title}</h3>
       <p>{text}</p>
