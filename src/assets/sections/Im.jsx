@@ -38,7 +38,7 @@ export default function Im() {
       <h1> Olá, eu {text}</h1>
       <div>
         <p>Tenho 21 anos, estou no meu utimo ano de facudade ADS(Analise de desenvolvimento de sistemas), estou em busca de esperiencia proficional, e já tenho alguns projetos pessoais</p>
-        <BTN text={'veja meu repositorio github' } link={'https://github.com/01101-kairo?tab=repositories'}/>
+        <BTN text={'repositorio github' } link={'https://github.com/01101-kairo?tab=repositories'} description={'meu repositorio github'}/>
       </div>
     </section>
   )

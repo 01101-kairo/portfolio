@@ -14,8 +14,8 @@ export default function Header() {
         </ul>
 
         <ul>
-          <li><a href="https://github.com/01101-kairo/"><FaGithub size={20}/></a></li>
-          <li><a href="https://www.linkedin.com/in/kairo-costa-b5a3b1196/"><FaLinkedin size={20}/></a></li>
+          <li><a href="https://github.com/01101-kairo/" aria-label="caminho para o meu github"><FaGithub size={20}/></a></li>
+          <li><a href="https://www.linkedin.com/in/kairo-costa-b5a3b1196/" aria-label="caminho para o meu linkdin"><FaLinkedin size={20}/></a></li>
         </ul>
       </nav>
     </header>
