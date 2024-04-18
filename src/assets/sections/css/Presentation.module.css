@@ -27,6 +27,12 @@
   }
 }
 
+@media screen and (max-width: 425px){
+  .presentation div > div{
+    width: 100%;
+  }
+}
+
 .time{
   display: flex;
   flex-wrap: nowrap !important;
