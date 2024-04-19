@@ -15,7 +15,7 @@ export default function Header() {
 
         <ul>
           <li><a href="https://github.com/01101-kairo/" aria-label="caminho para o meu github"><FaGithub size={20}/></a></li>
-          <li><a href="https://www.linkedin.com/in/kairo-costa-fron-end/" aria-label="caminho para o meu linkdin"><FaLinkedin size={20}/></a></li>
+          <li><a href="https://www.linkedin.com/in/kairo-costa-front-end/" aria-label="caminho para o meu linkdin"><FaLinkedin size={20}/></a></li>
         </ul>
       </nav>
     </header>
