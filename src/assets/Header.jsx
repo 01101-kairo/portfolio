@@ -11,7 +11,9 @@ export default function Header() {
     <header className={styles.header} id='Header'>
       <button id="menu-button" onClick={()=>{
         menu.style.display === "flex"? menu.style.display = "none": menu.style.display = "flex"
-      }}><GiHamburgerMenu size={40}/></button>
+      }}>
+        <GiHamburgerMenu size={40}/>
+      </button>
 
       <nav id="menu">
         <ul>
