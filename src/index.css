@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #0F1624;
+  background-color: #1a212e;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,15 +16,21 @@
 }
 
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
-  place-items: center;
-  width: 100%;
-  min-width: 320px;
-  min-height: 100vh;
+}
+main{
+  width: 1140px;
+  margin: 0 auto;
 }
 
+@media screen and (max-width: 1134px){
+  main{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 h1 {
   font-size: 2.6em;
   line-height: 1.1;

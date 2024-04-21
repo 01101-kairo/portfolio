@@ -1,3 +1,7 @@
+.header{
+  width: 100%;
+  background-color: #141b24;
+}
 .header nav{
   display: flex;
   flex-wrap:wrap;
@@ -10,7 +14,7 @@
 }
 
 .header ul:first-child {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   flex-wrap:wrap;
 }
 
@@ -26,9 +30,24 @@
   margin: 26px;
 }
 
+.header button{
+  display: none;
+}
+
 @media screen and (max-width: 757px){
+  .header button{
+    display: block;
+    width: 80px;
+    height: 60px;
+    background: red;
+    cursor: pointer;
+  }
+  .header button:houver{
+    cursor: pointer;
+  }
   .header nav{
     flex-direction: column;
+    display: none;
   }
   .header ul:first-child {
     flex-direction: column;

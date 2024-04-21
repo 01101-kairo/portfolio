@@ -4,9 +4,25 @@ import {FaLinkedin, FaGithub } from "react-icons/fa";
 import Nav from "react-bootstrap/Nav";
 
 export default function Header() {
+  const  hamburger = () => {
+
+    let menuButton = document.getElementById("menu-button")
+    let menu = document.getElementById("menu")
+
+    menuButton.addEventListener("click", function() {
+      if (menu.style.display === "flex") {
+        menu.style.display = "none"
+      } else {
+        menu.style.display = "flex"
+      }
+    })
+  }
+
   return (
     <header className={styles.header} id='Header'>
-      <nav>
+      <button id="menu-button" onClick={hamburger}>&#9776;</button>
+
+      <nav id="menu">
         <ul>
           <li><Nav.Link href="#Projects">Projetos</Nav.Link></li>
           <li><Nav.Link href="#Presentation">Tecnologias</Nav.Link></li>

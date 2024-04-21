@@ -1,9 +1,11 @@
 .footer{
+  background-color: #141b24;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: left;
-  margin: 238px 0 66px;
+  margin-top: 238px;
+  padding: 0 16px 66px;
 }
 
 .footer div{
@@ -22,7 +24,20 @@
 }
 
 @media screen and (max-width: 767px){
+  .interno{
+    flex-direction: row;
+  }
+  .interno a{
+    padding-left: 12px;
+  }
   .footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer div{
+    text-align: center;
+    align-items: center;
     justify-content: center;
   }
 }

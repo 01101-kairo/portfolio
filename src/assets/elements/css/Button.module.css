@@ -1,15 +1,15 @@
 .btn{
-  background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+  background-color: #478ecc;
+  color: #1a212e;
   border: none;
   padding: 14px 36px;
-  border-radius: 80px;
+  border-radius: 8px;
   font-weight: bolder;
   margin-top: 15px;
   cursor: pointer;
 }
 
 .btn:hover{
-  color: white;
   transform: translateY(-7px);
   transition-duration: 0.5s;
 }
