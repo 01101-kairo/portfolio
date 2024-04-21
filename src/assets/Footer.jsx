@@ -26,7 +26,7 @@ export default function Footer() {
         <nav>
           <ul>
             <li><a href="https://github.com/01101-kairo/" aria-label="caminho para o meu github"><FaGithub size={50}/></a></li>
-            <li><a href="https://www.linkedin.com/in/kairo-costa-b5a3b1196/" aria-label="caminho para o meu linkdin"><FaLinkedin size={50}/></a></li>
+            <li><a href="https://www.linkedin.com/in/kairo-costa-front-end/" aria-label="caminho para o meu linkdin"><FaLinkedin size={50}/></a></li>
             <li>
               <a 
                 href="https://www.figma.com/file/O2j7uVVhXUnV6dadZc2MMw/Desafio-03%3A-Desenvolva-um-portf%C3%B3lio-com-React-hooks?type=design&node-id=0%3A1&mode=design&t=Hpl7aIhWt0vdutHj-1"
