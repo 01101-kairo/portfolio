@@ -13,8 +13,16 @@
   align-items: flex-start;
 }
 
+.footer div:first-child{
+  margin-right: 36px;
+}
 .interno{
   display: flex;
   flex-direction: column;
-  margin-right: 36px;
+}
+
+@media screen and (max-width: 767px){
+  .footer{
+    justify-content: center;
+  }
 }
