@@ -3,19 +3,18 @@ import styles from "./css/Header.module.css";
 import {FaLinkedin, FaGithub } from "react-icons/fa";
 import { GiHamburgerMenu  } from "react-icons/gi";
 import Nav from "react-bootstrap/Nav";
+import { useState } from "react";
 
 export default function Header() {
-  let menu = document.getElementById("menu")
+  const [menuVisible, setMenuVisible] = useState(false);
 
   return (
     <header className={styles.header} id='Header'>
-      <button id="menu-button" onClick={()=>{
-        menu.style.display === "flex"? menu.style.display = "none": menu.style.display = "flex"
-      }}>
+      <button id="menu-button" onClick={() => setMenuVisible(!menuVisible)}>
         <GiHamburgerMenu size={40}/>
       </button>
 
-      <nav id="menu">
+      <nav style={{display: menuVisible? "flex": "none"}}>
         <ul>
           <li><Nav.Link href="#Projects">Projetos</Nav.Link></li>
           <li><Nav.Link href="#Presentation">Tecnologias</Nav.Link></li>
