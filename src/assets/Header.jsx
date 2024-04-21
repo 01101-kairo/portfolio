@@ -1,26 +1,17 @@
 import styles from "./css/Header.module.css";
 
 import {FaLinkedin, FaGithub } from "react-icons/fa";
+import { GiHamburgerMenu  } from "react-icons/gi";
 import Nav from "react-bootstrap/Nav";
 
 export default function Header() {
-  const  hamburger = () => {
-
-    let menuButton = document.getElementById("menu-button")
-    let menu = document.getElementById("menu")
-
-    menuButton.addEventListener("click", function() {
-      if (menu.style.display === "flex") {
-        menu.style.display = "none"
-      } else {
-        menu.style.display = "flex"
-      }
-    })
-  }
+  let menu = document.getElementById("menu")
 
   return (
     <header className={styles.header} id='Header'>
-      <button id="menu-button" onClick={hamburger}>&#9776;</button>
+      <button id="menu-button" onClick={()=>{
+        menu.style.display === "flex"? menu.style.display = "none": menu.style.display = "flex"
+      }}><GiHamburgerMenu size={40}/></button>
 
       <nav id="menu">
         <ul>
