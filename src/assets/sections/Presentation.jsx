@@ -15,8 +15,8 @@ export default function Presentation() {
           </div>
 
           <p>
-            Comecei meu ensino medio no IFMA campos avancados de Porto Franco - MA,
-            ensino medio conjuto com ensino tecnico em informatica
+            Comecei meu ensino médio no IFMA campos avançados de Porto Franco - MA,
+            ensino médio conjunto com ensino técnico em informática
           </p>
         </div>
 
@@ -30,8 +30,8 @@ export default function Presentation() {
           </div>
 
           <p>
-            ganhei meu primeiro notebook, iniciando no mundo linux, estudando sistemas operacionais unix
-            e softwares GNU
+            ganhei meu primeiro notebook, iniciando no mundo Linux, estudando
+            sistemas operacionais Unix e softwares GNU
           </p>
         </div>
 
@@ -45,8 +45,8 @@ export default function Presentation() {
           </div>
 
           <p>
-            Iniciei uma faculdade EAD na FACIMP/ESTACIO formação em ADS, percebi tambem que facudade
-            não é muito importante termino ela nesse ano atual 2024
+            Iniciei uma faculdade EAD na FACIMP/ESTACIO formação em ADS, percebi
+            também que faculdade não é muito importante, termino ela nesse ano atual 2024
           </p>
         </div>
 
@@ -59,8 +59,8 @@ export default function Presentation() {
           </div>
 
           <p>
-            iniciei minha formação na DNC, para revisar meus conhecimentos e adquirir projetos praticos
-            desejo alcanção um primeiro emprego depois formação
+            iniciei minha formação na DNC, para revisar meus conhecimentos e adquirir
+            projetos praticos desejo alcanção um primeiro emprego depois formação
           </p>
         </div>
       </div>

@@ -15,7 +15,7 @@ export default function Projects() {
         <Card
           img  = {pg1}
           title= {'Projeto landing page'}
-          text = {'Projetinho de uma landing page com uso js html css.'}
+          text = {'Projetinho de uma landing page com uso js| html| css.'}
           site = {'https://projeto-landing-page-do-kairo.netlify.app/'}
           github={'https://github.com/01101-kairo/projeto-landing-page'}
         />
@@ -36,7 +36,7 @@ export default function Projects() {
         <Card
           img  = {pg4}
           title= {'Projeto siteGenerico'}
-          text = {'Nesse projeto costruo uma pagina com os conhecimento que tenho no fremework bootstrap contendo responsividade'}
+          text = {'Nesse projeto construo uma página com os conhecimentos que tenho no fremework bootstrap contendo responsividade.'}
           site = {'https://site-generico-p10k3jiyq-kairo-costas-projects.vercel.app/'}
           github={'https://github.com/01101-kairo/siteGenerico'}
         />

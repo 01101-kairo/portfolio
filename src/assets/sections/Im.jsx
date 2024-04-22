@@ -37,7 +37,10 @@ export default function Im() {
     <section className={styles.im} id='Im'>
       <h1> Olá, eu {text}</h1>
       <div>
-        <p>Tenho 21 anos, estou no meu utimo ano de facudade ADS(Analise de desenvolvimento de sistemas), estou em busca de esperiencia proficional, e já tenho alguns projetos pessoais</p>
+        <p>
+          Tenho 21 anos, estou no meu último ano de faculdade ADS(Análise de desenvolvimento de sistemas),
+          estou em busca de experiência profissional, e já tenho alguns projetos pessoais.
+        </p>
         <BTN text={'repositorio github' } link={'https://github.com/01101-kairo?tab=repositories'} description={'meu repositorio github'}/>
       </div>
     </section>
