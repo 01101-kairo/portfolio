@@ -1,11 +1,11 @@
 import BTN from "./Button";
 import styles from "./css/card.module.css";
 
-export default function Card({fetch, img,title, text, site, github}) {
+export default function Card({img,title, text, site, github}) {
   return (
     <div className={styles.card}>
       <a href={site} aria-label='pagina desse projeto'>
-        <img  fetchpriority={fetch} src={img} alt="ERROR" width='349' height='196'/>
+        <img src={img} alt="ERROR" width='349' height='196'/>
       </a>
       <h3>{title}</h3>
       <p>{text}</p>
