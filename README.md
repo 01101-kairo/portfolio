@@ -11,6 +11,7 @@ interface
 Histórico de versionamento com o registro das correções e mudanças
     Não tive problemas no projeto, essas são as mudanças
 realizadas no projeto
-![alt text](./img/2024-04-21-00_0xApr.pmg)
-![alt text](./img/2024-04-21-51_0xApr.pmg)
-![alt text](./img/2024-04-21-40_0xApr.pmg)
+
+<img src="./img/2024-04-21-00_0xApr.png" width="200">
+<img src="./img/2024-04-21-51_0xApr.png" width="200">
+<img src="./img/2024-04-21-40_0xApr.png" width="200">
