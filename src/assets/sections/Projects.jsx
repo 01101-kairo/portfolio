@@ -1,10 +1,10 @@
 import Card from "../elements/Card";
 import styles from "./css/Projects.module.css"
 
-import pg1 from "../img/pg1.png";
-import pg2 from "../img/pg2.png";
-import pg3 from "../img/pg3.png";
-import pg4 from "../img/pg4.png";
+import pg1 from "../img/pg1.webp";
+import pg2 from "../img/pg2.webp";
+import pg3 from "../img/pg3.webp";
+import pg4 from "../img/pg4.webp";
 
 export default function Projects() {
   return (

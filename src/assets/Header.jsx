@@ -23,7 +23,7 @@ export default function Header() {
   }, []);
   return (
     <header className={styles.header} id='Header'>
-      <button id="menu-button" onClick={() => setMenuVisible(!menuVisible)}>
+      <button onClick={() => setMenuVisible(!menuVisible)} aria-label="botão hamburger para exibir o menu">
         <GiHamburgerMenu size={40}/>
       </button>
 
