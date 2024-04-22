@@ -2,6 +2,8 @@
   padding: 10px 0 10px;
   width: 100%;
   background-color: #141b24;
+  position: sticky;
+  top: 0;
 }
 .header nav{
   display: flex;
