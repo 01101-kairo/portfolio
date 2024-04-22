@@ -13,6 +13,7 @@ export default function Projects() {
 
       <div>
         <Card
+          fetch={'high'}
           img  = {pg1}
           title= {'Projeto landing page'}
           text = {'Projetinho de uma landing page com uso js| html| css.'}
@@ -20,6 +21,7 @@ export default function Projects() {
           github={'https://github.com/01101-kairo/projeto-landing-page'}
         />
         <Card
+          fetch={'high'}
           img  = {pg2}
           title= {'Projeto ccxp'}
           text = {'Projetinho para fazer o uso de do date() na linguagem JS(java script).'}
@@ -27,7 +29,7 @@ export default function Projects() {
           github={'https://github.com/01101-kairo/CCXP'}
         />
         <Card
-          low={'low'}
+          fetch={'low'}
           img  = {pg3}
           title= {'Projeto apiJS'}
           text = {'Com o uso do bootstrap contrui essa pagina para o uso de api de clima e cep no JS.'}
@@ -35,7 +37,7 @@ export default function Projects() {
           github={'https://github.com/01101-kairo/weather'}
         />
         <Card
-          low={'low'}
+          fetch={'low'}
           img  = {pg4}
           title= {'Projeto siteGenerico'}
           text = {'Nesse projeto construo uma página com os conhecimentos que tenho no fremework bootstrap contendo responsividade.'}
