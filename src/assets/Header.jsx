@@ -3,11 +3,24 @@ import styles from "./css/Header.module.css";
 import {FaLinkedin, FaGithub } from "react-icons/fa";
 import { GiHamburgerMenu  } from "react-icons/gi";
 import Nav from "react-bootstrap/Nav";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const [menuVisible, setMenuVisible] = useState(false);
 
+  useEffect(() => {
+    function handleResize() {
+      if (window.innerWidth > 757) {
+        setMenuVisible(true);
+      } else{setMenuVisible(false);}
+    }
+    // Verifica o tamanho da tela ao carregar a página
+    handleResize();
+    // Adiciona um listener para verificar o tamanho da tela quando a janela for redimensionada
+    window.addEventListener("resize", handleResize);
+    // Remove o listener quando o componente é desmontado
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <header className={styles.header} id='Header'>
       <button id="menu-button" onClick={() => setMenuVisible(!menuVisible)}>
