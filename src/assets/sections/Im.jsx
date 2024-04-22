@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 export default function Im() {
   const [text, setText] = useState('')
-  const toRotate = [' me chamo Kairo Costa!', ' sou desenvolvedor front-end']
+  const toRotate = ['Olá, eu sou o Kairo!', 'sou Dev front-end']
   const [loop, setLoop] = useState(0)
   const [isDeleting, setIsDeleting] = useState(false)
   const period = 100
@@ -35,7 +35,7 @@ export default function Im() {
   }
   return (
     <section className={styles.im} id='Im'>
-      <h1> Olá, eu {text}</h1>
+      <h1>{text}|</h1>
       <div>
         <p>
           Tenho 21 anos, estou no meu último ano de faculdade ADS(Análise de desenvolvimento de sistemas),

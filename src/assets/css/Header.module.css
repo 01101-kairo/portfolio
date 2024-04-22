@@ -1,7 +1,8 @@
 .header{
+  background-color: #090a0b;
+  opacity: .8;
   padding: 10px 0 10px;
   width: 100%;
-  background-color: #141b24;
   position: sticky;
   top: 0;
 }
