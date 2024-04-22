@@ -27,6 +27,7 @@ export default function Projects() {
           github={'https://github.com/01101-kairo/CCXP'}
         />
         <Card
+          low={'low'}
           img  = {pg3}
           title= {'Projeto apiJS'}
           text = {'Com o uso do bootstrap contrui essa pagina para o uso de api de clima e cep no JS.'}
@@ -34,6 +35,7 @@ export default function Projects() {
           github={'https://github.com/01101-kairo/weather'}
         />
         <Card
+          low={'low'}
           img  = {pg4}
           title= {'Projeto siteGenerico'}
           text = {'Nesse projeto construo uma página com os conhecimentos que tenho no fremework bootstrap contendo responsividade.'}
