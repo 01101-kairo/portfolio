@@ -9,9 +9,4 @@ addicionei um hamburguer para combinar com a responsividade da pagina
 interface
 
 Histórico de versionamento com o registro das correções e mudanças
-    Não tive problemas no projeto, essas são as mudanças
-realizadas no projeto
-
-<img src="./img/2024-04-21-00_0xApr.png" width="200">
-<img src="./img/2024-04-21-51_0xApr.png" width="200">
-<img src="./img/2024-04-21-40_0xApr.png" width="200">
+    Não tive problemas no projeto, maior mudança foi a responsividade
