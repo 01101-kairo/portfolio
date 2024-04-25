@@ -7,7 +7,9 @@ export default function Footer() {
       <div>
         <div className={styles.interno}>
           <p>
-            Meu contato:
+            <b>
+              Meu contato:
+            </b>
           </p>
           <a href="https://wa.me/55218979878978">
             (99) 982455137
@@ -15,7 +17,9 @@ export default function Footer() {
         </div>
         <div className={styles.interno}>
           <p>
-            Email:
+            <b>
+              Email:
+            </b>
           </p>
           <a href="mailto:kairomilhomem@gmail.com">
             kairomilhomem@gmail.com
