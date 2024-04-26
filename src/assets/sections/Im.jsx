@@ -39,7 +39,7 @@ export default function Im() {
   return (
     <section className={styles.im} id='Im'>
       <picture>
-        <source src={rosto} media="(max-width: 767px )"/>
+        <source srcset={rosto} media="(max-width: 767px )"/>
         <img src={rosto} alt="foto do meu rosto sorindo" width="259" height="259"/>
       </picture>
 
