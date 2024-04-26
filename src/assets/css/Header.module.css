@@ -1,6 +1,5 @@
 .header{
   background-color: #090a0b;
-  opacity: .8;
   padding: 10px 0 10px;
   width: 100%;
   position: sticky;
@@ -54,7 +53,9 @@
   .header nav{
     flex-direction: column;
     display: none;
+    height: 92vh;
   }
+
   .header ul:first-child {
     flex-direction: column;
   }

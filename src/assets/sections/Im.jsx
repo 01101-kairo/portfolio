@@ -1,5 +1,7 @@
 import BTN from "../elements/Button"
 import styles from "./css/Im.module.css"
+import rosto from "../img/rosto.webp";
+
 import { useEffect, useState } from "react";
 
 export default function Im() {
@@ -33,8 +35,14 @@ export default function Im() {
       setLoop(loop+1)
     }
   }
+
   return (
     <section className={styles.im} id='Im'>
+      <picture>
+        <source src={rosto} media="(max-width: 767px )"/>
+        <img src={rosto} alt="foto do meu rosto sorindo" width="259" height="259"/>
+      </picture>
+
       <h1>{text}|</h1>
       <div>
         <p>

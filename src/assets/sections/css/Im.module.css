@@ -1,8 +1,16 @@
 .im{
   text-align: left;
   padding: 30px;
+  height: 100vh;
 }
 
 .im div{
   margin-left: 26px;
+}
+
+.im img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 150px;
+  border: 5px solid #eceff4;
 }

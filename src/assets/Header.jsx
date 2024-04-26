@@ -6,21 +6,29 @@ import Nav from "react-bootstrap/Nav";
 import { useState, useEffect } from "react";
 
 export default function Header() {
-  const [menuVisible, setMenuVisible] = useState(false);
+  const [menuVisible, setMenuVisible] = useState(false)
 
   useEffect(() => {
     function handleResize() {
       if (window.innerWidth > 757) {
-        setMenuVisible(true);
-      } else{setMenuVisible(false);}
+        setMenuVisible(true)
+      } else{setMenuVisible(false)}
     }
     // Verifica o tamanho da tela ao carregar a página
-    handleResize();
+    handleResize()
     // Adiciona um listener para verificar o tamanho da tela quando a janela for redimensionada
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize)
     // Remove o listener quando o componente é desmontado
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+  //função para dar um display none na nav apos o clique na li em aparelhos
+  //menores que 757
+  const ver = () => {
+    if (window.innerWidth < 757){
+      setMenuVisible(false)
+    }
+  }
+
   return (
     <header className={styles.header} id='Header'>
       <button onClick={() => setMenuVisible(!menuVisible)} aria-label="botão hamburger para exibir o menu">
@@ -29,9 +37,9 @@ export default function Header() {
 
       <nav style={{display: menuVisible? "flex": "none"}}>
         <ul>
-          <li><Nav.Link href="#Projects">Projetos</Nav.Link></li>
-          <li><Nav.Link href="#Presentation">Tecnologias</Nav.Link></li>
-          <li><Nav.Link href="#Im">Sobre mim</Nav.Link></li>
+          <li onClick={ver}><Nav.Link href="#Projects">Projetos</Nav.Link></li>
+          <li onClick={ver}><Nav.Link href="#Presentation">Tecnologias</Nav.Link></li>
+          <li onClick={ver}><Nav.Link href="#Im">Sobre mim</Nav.Link></li>
         </ul>
 
         <ul>
