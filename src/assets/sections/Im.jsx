@@ -38,10 +38,14 @@ export default function Im() {
 
   return (
     <section className={styles.im} id='Im'>
-      <picture>
-        <source srcset={rosto} media="(max-width: 767px )"/>
-        <img src={rosto} alt="foto do meu rosto sorindo" width="259" height="259"/>
-      </picture>
+
+      <figure>
+        <picture>
+          <source srcSet={"https://avatars.githubusercontent.com/u/57676304?v=4"} media="(max-width: 767px )"/>
+          <img src={"https://avatars.githubusercontent.com/u/57676304?v=4"} alt="foto do meu rosto sorindo" width="259" height="259"/>
+        </picture>
+        <figcaption></figcaption>
+      </figure>
 
       <h1>{text}|</h1>
       <div>
