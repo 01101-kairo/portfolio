@@ -12,11 +12,11 @@ export default function Im() {
   const period = 100
   const [delta, setIsDelta] = useState(100)
 
-  useEffect(()=>{
-    let ticker = setInterval(()=>{
+  useEffect(() => {
+    let ticker = setInterval(() => {
       toType()
     },delta)
-    return()=>{clearInterval(ticker)}
+    return() => {clearInterval(ticker)}
   },[text])
 
   const toType = () => {
@@ -29,7 +29,7 @@ export default function Im() {
     if(!isDeleting && updatedText === fullText) {
       setIsDeleting(true)
       setIsDelta(period)
-    }else if (isDeleting && updatedText === '' ){
+    }else if (isDeleting && updatedText === '' ) {
       setIsDeleting(false)
       setIsDelta(period)
       setLoop(loop+1)
@@ -44,7 +44,6 @@ export default function Im() {
           <source srcSet={"https://avatars.githubusercontent.com/u/57676304?v=4"} media="(max-width: 767px )"/>
           <img src={"https://avatars.githubusercontent.com/u/57676304?v=4"} alt="foto do meu rosto sorindo" width="259" height="259"/>
         </picture>
-        <figcaption></figcaption>
       </figure>
 
       <h1>{text}|</h1>
