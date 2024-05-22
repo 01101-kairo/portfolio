@@ -78,12 +78,15 @@ img{
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #f1f1f1;
+  }
+  footer{
+    color: #fff;
   }
   a:hover {
-    color: #747bff;
+    color: #0c70f2;
   }
   button {
-    background-color: #f9f9f9;
+    color: #f9f9f9;
   }
 }
