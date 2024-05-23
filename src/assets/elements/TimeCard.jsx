@@ -5,9 +5,9 @@ export default function TimeCard({ano, texto, lineLeft, ball,  lineRight}) {
       <h3>{ano}</h3>
 
       <div className={styles.time}>
-        {lineLeft ? <div className={styles.line}></div> :  <div className={styles.lineNone}></div>}
-        {ball ? <div className={styles.ball}></div> : <div className={styles.ballNone}></div>}
-        {lineRight ? <div className={styles.line}></div> : <div className={styles.lineNone}></div>}
+        <div className={lineLeft ? styles.line :  styles.lineNone}></div>
+        <div className={ball ? styles.ball : styles.ballNone}></div>
+        <div className={lineRight ? styles.line : styles.lineNone}></div>
       </div>
 
       <p>{texto}</p>
